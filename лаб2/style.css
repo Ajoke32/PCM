@@ -1,0 +1,54 @@
+
+.app-wrapper{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.graphics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.op-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap:25px
+}
+label{
+    margin-left: 3px;
+}
+input[type='text']{
+    width: 73%;
+}
+.fs-big{
+    font-size: 20px;
+}
+.fs-mid{
+    font-size: 18px;
+}
+button{
+    cursor: pointer;
+}
+input,select,button{
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.graphics{
+    width: 500px;
+    height: 400px;
+    border: 1px solid lightgreen;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    border: 1px solid lightblue;
+}
